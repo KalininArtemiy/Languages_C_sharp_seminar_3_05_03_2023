@@ -1,10 +1,9 @@
 ﻿int[] new_massive(int Lenght, int Min, int Max)
 {
   int[] array = new int[Lenght];
-  Random random = new Random();
   for (int i = 0; i < Lenght; i++)
   {
-    array[i] = random.Next(Min, Max+1);
+    array[i] =new Random().Next(Min, Max+1);
   }
   return array;
 }
