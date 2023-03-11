@@ -11,7 +11,7 @@
   }
   else if (degree < 0)
   {
-    for (int i = 0; i < degree; i++)
+    for (int i = 0; i > degree; i--)
     {
       result *= number;
     }
